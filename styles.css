@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Red Hat Display", sans-serif;
+  background-color: #cfdafa;
+  background-image: url("/Img/pattern-background-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#summary-container {
+  width: 90%;
+  max-width: 400px;
+  padding-bottom: 15px;
+
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  text-align: center;
+  background-color: white;
+}
+
+#summary-container img {
+  border-radius: 20px 20px 0 0;
+  width: 100%;
+}
+
+#order-summary h1 {
+  color: #1c294b;
+  font-size: 24px;
+  padding: 25px;
+}
+
+#order-summary p {
+  color: #a0a3b6;
+  padding: 0px 50px;
+  line-height: 30px;
+}
+
+#subscription {
+  width: 85%;
+  margin: 30px 0;
+  padding: 15px;
+  display: flex;
+
+  align-items: center;
+  background-color: #f8f9fe;
+  border-radius: 15px;
+}
+
+#subscription h2 {
+  font-size: 18px;
+}
+
+#subscription img {
+  height: 55px;
+  width: 55px;
+}
+
+#subscription-details {
+  line-height: 25px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 20px;
+  width: 60%;
+}
+
+#subscription-details h2 {
+  color: #1c294b;
+}
+
+#subscription-details p {
+  color: #a0a3b6;
+}
+
+#subscription a {
+  font-size: 14px;
+  font-weight: 500;
+}
+#subscription a:hover {
+  text-decoration: none;
+  color: #7a70e1;
+}
+
+#order-options {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#order-options button {
+  width: 85%;
+  padding: 15px;
+  font-size: 16px;
+  border: none;
+  margin: 5px;
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+#proceed-button {
+  background-color: #382ae1;
+  color: white;
+  -webkit-box-shadow: 0px 21px 24px -3px rgba(56, 42, 225, 0.19);
+  -moz-box-shadow: 0px 21px 24px -3px rgba(56, 42, 225, 0.19);
+  box-shadow: 0px 21px 24px -3px rgba(56, 42, 225, 0.19);
+}
+#proceed-button:hover {
+  background-color: #766cf1;
+}
+
+#cancel-button {
+  background-color: transparent;
+  color: #797e9b;
+}
+#cancel-button:hover {
+  color: #263147;
+}
+
+@media screen and (min-width: 500px) {
+  body {
+    background-image: url("/Img/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
