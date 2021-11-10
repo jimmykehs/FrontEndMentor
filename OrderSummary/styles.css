@@ -39,7 +39,7 @@ body {
 #order-summary h1 {
   color: #1c294b;
   font-size: 24px;
-  padding: 25px;
+  padding: 30px 0 10px 0;
 }
 
 #order-summary p {
@@ -88,10 +88,13 @@ body {
 #subscription a {
   font-size: 14px;
   font-weight: 500;
+  text-decoration: underline;
+  color: hsl(223, 47%, 23%);
 }
 #subscription a:hover {
   text-decoration: none;
   color: #7a70e1;
+  cursor: pointer;
 }
 
 #order-options {
@@ -121,6 +124,7 @@ body {
 }
 #proceed-button:hover {
   background-color: #766cf1;
+  cursor: pointer;
 }
 
 #cancel-button {
@@ -129,6 +133,7 @@ body {
 }
 #cancel-button:hover {
   color: #263147;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 500px) {
