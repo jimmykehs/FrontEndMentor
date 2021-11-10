@@ -1,5 +1,5 @@
-Goal:
-![Challenge Goal](/Img/desktop-preview.jpg)
+# Goal:
+![Challenge Goal](/OrderSummary/Img/desktop-preview.jpg)
 
-Finished:
-![Finished](/Img/Finished.png)
+# Finished:
+![Finished](/OrderSummary/Img/Finished.png)
